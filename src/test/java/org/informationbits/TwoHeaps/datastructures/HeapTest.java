@@ -11,7 +11,7 @@ import java.util.Comparator;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class HeapTest {
-    final int maxHeapSize = 10;
+    final static int maxHeapSize = 10;
     Heap<Integer> heap;
     Logger logger = LogManager.getLogger();
 
@@ -55,7 +55,7 @@ class HeapTest {
 
     private boolean isEqual(Object[] a, Integer[] b) {
         for (int i = 0; i < b.length; i++) {
-            if (a[i] != b[i]) return false;
+            if (((int) a[i]) != b[i]) return false;
         }
         return true;
     }

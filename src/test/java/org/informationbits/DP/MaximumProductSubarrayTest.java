@@ -10,7 +10,7 @@ class MaximumProductSubarrayTest {
     void maxProduct() {
         int[] nums = new int[]{2, 3, 2, 4};
         int actual = MaximumProductSubarray.maxProductV2(nums);
-        int expected = 6;
+        int expected = 48;
         assertEquals(actual, expected);
     }
 }

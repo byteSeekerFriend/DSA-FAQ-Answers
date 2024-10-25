@@ -1,26 +1,13 @@
 package org.informationbits.InPlaceLinkedListManipulation.solutionsuit;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.informationbits.InPlaceLinkedListManipulation.datastructures.LinkedList;
 import org.informationbits.InPlaceLinkedListManipulation.datastructures.LinkedListNode;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.informationbits.InPlaceLinkedListManipulation.datastructures.LinkedList.isEqual;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ReorderTest {
-    Logger logger = LogManager.getLogger();
-
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
-    }
 
     @Test
     void reorderList() {
